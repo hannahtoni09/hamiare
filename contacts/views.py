@@ -32,7 +32,7 @@ def contact(request):
     send_mail(
       'Property Listing Inquiry',
       'There has been an inquiry for ' + listing + '.Sign into admin panel for more info',
-      'info@tradeanalytics.vn',
+      'leanhtuan8183@gmail.com',
       [realtor_email, 'leanhtuan8183@gmail.com'],
       fail_silently=False,
     )
