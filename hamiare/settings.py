@@ -150,3 +150,10 @@ try:
 except ImportError:
     pass
 
+# Email config
+
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'leanhtuan8183@gmail.com'
+EMAIL_HOST_PASSWORD = 'anhtuan0306'
+EMAIL_USE_TLS=True
