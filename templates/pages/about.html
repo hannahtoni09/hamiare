@@ -2,14 +2,14 @@
 
 {% load static %}
 
-{% block title %} | About Hamia Online {% endblock %}
+{% block title %} | About Hamia Online - Trade Analytics {% endblock %}
 
 {% block content %}
 <section id="showcase-inner" class="py-5 text-white">
     <div class="container">
       <div class="row text-center">
         <div class="col-md-12">
-          <h1 class="display-4">About Hamia Online - Real Estate</h1>
+          <h1 class="display-4">Hamia Online - Business Reports and Analytics</h1>
           <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, pariatur!</p>
         </div>
       </div>
@@ -35,7 +35,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-8">
-          <h2>We Search For The Perfect Home</h2>
+          <h2>We Provide Market Data and Location Analytics and Reports</h2>
           <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, pariatur!</p>
           <img src="{% static 'img/about.jpg' %}" alt="">
           <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis esse officia repudiandae ad saepe ex, amet
@@ -64,9 +64,11 @@
   <!-- Work -->
   <section id="work" class="bg-dark text-white text-center">
     <h2 class="display-4">We Work For You</h2>
-    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem velit aperiam, unde aliquid at similique!</h4>
+    <h4>Check our services!</h4>
     <hr>
-    <a href="{% url 'listings' %}" class="btn btn-secondary text-white btn-lg">View Our Featured Listings</a>
+    <a href="https://maps.tradeanalytics.vn" class="btn btn-secondary text-white btn-lg">Location Analytics</a>
+    <a href="/" class="btn btn-secondary text-white btn-lg">Games</a>
+    <a href="{% url 'listings' %}" class="btn btn-secondary text-white btn-lg">Real Estate</a>
   </section>
 
   <!-- Team -->
