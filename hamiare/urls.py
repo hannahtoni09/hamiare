@@ -11,6 +11,4 @@ urlpatterns = [
     path('accounts/', include('accounts.urls')),
     path('contacts/', include('contacts.urls')),
     path('admin/', admin.site.urls),
-    path('dashboard/', include('dashboard.urls')),
-    path('dashboard_with_pivot/', include('dashboard.urls'))
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
